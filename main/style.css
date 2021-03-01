@@ -1,0 +1,21 @@
+body {
+  background-color: grey;
+}
+
+.home {
+  text-align: center;
+}
+
+.navigation {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 10px;
+}

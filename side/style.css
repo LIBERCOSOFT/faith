@@ -1,0 +1,18 @@
+.home {
+  padding: 50px 0 0 80px;
+}
+
+.imageContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.imageContainer::before {
+  position: absolute;
+  top: -5%;
+  left: -15%;
+  width: 100%;
+  height: 100%;
+  border: 4px solid #000;
+  content: '';
+}
